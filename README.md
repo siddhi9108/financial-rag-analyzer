@@ -242,6 +242,6 @@ MIT License — free to use, modify, and share.
 ##  Author
 
 **Siddhi Amilkanthwar**
-- 📧 siddhi.amilkanthwar@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/siddhi-amilkanthwar)
-- 🐙 [GitHub](https://github.com/siddhi9108)
+-  siddhi.amilkanthwar@gmail.com
+-  [LinkedIn](https://linkedin.com/in/siddhi-amilkanthwar)
+-  [GitHub](https://github.com/siddhi9108)
