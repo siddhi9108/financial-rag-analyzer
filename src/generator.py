@@ -118,24 +118,18 @@ def generate_answer(
 
 
 def check_ollama_available(model: str = DEFAULT_MODEL) -> bool:
-    """
-    Check if Ollama is running and model is available.
-    """
     try:
         models = ollama.list()
-        available = [m["name"] for m in models.get("models", [])]
+        available = [m.model for m in models.models]
         return any(model in m for m in available)
     except Exception:
         return False
 
 
 def list_available_models() -> List[str]:
-    """
-    Return list of models available in Ollama.
-    """
     try:
         models = ollama.list()
-        return [m["name"] for m in models.get("models", [])]
+        return [m.model for m in models.models]
     except Exception:
         return []
 
