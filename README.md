@@ -1,10 +1,10 @@
-# 💰 Financial Document Analyzer — RAG System
+#  Financial Document Analyzer — RAG System
 
 A production-grade Retrieval-Augmented Generation (RAG) system that lets you chat with financial documents (earnings reports, balance sheets, annual filings) using **100% free and open-source tools**.
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 ```
 PDF Documents
@@ -33,7 +33,7 @@ PDF Documents
 
 ---
 
-## 🛠️ Tech Stack (All Free & Open Source)
+##  Tech Stack (All Free & Open Source)
 
 | Component | Tool | Why |
 |-----------|------|-----|
@@ -47,7 +47,7 @@ PDF Documents
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repo
 ```bash
@@ -78,7 +78,7 @@ streamlit run src/app.py
 
 ---
 
-## 💡 Example Questions to Ask
+##  Example Questions to Ask
 
 - *"What was the total revenue in Q3?"*
 - *"What are the main risk factors mentioned?"*
@@ -88,7 +88,7 @@ streamlit run src/app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 financial-rag/
@@ -108,7 +108,7 @@ financial-rag/
 
 ---
 
-## 📊 Evaluation Metrics (RAGAS)
+##  Evaluation Metrics (RAGAS)
 
 The system measures:
 - **Faithfulness** — Does the answer stick to retrieved context?
@@ -118,13 +118,13 @@ The system measures:
 
 ---
 
-## 🌍 Why This Matters
+##  Why This Matters
 
 Hallucinations in financial analysis can lead to bad investment decisions. This system ensures every answer is grounded in retrieved evidence, with source citations shown in the UI.
 
 ---
 
-## 🔧 Customization
+##  Customization
 
 - Swap `mistral` for `llama3`, `gemma2`, or any Ollama model
 - Change chunk size in `ingestion.py` for different document types
@@ -132,6 +132,6 @@ Hallucinations in financial analysis can lead to bad investment decisions. This 
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and share.
